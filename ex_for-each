@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string nomes[] = {"pai", "mae", "tio", "tia"}
+
+    for(string num : nomes){
+        cout << num << "\n";
+    }
+    
+    return 0;
+}
+
