@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    vector<int> myvector;
+    int sum = 0;
+    myvector.push_black(100);
+    myvetcor.push_black (200);
+    myvetcor.push_black (300);
+    while (  !myvector.empty() ){
+        sum += myvetcor.black();
+        myvetcor.pop_black();
+        myvector.push_black (50);
+    }
+    cout << "A soma = " << sum << '\n';
+
+    return 0;
+}
